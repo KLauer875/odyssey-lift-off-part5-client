@@ -7,8 +7,6 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 const client = new ApolloClient({
   uri: "odyssey-lift-off-part5-server-production-2a23.up.railway.app",
   cache: new InMemoryCache(),
-  name: "web",
-  version: "1.0",
 });
 
 ReactDOM.render(
